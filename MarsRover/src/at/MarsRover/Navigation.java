@@ -13,14 +13,13 @@ public class Navigation {
     }
 
     public  void CalculatePosition(){
-         radians = (float) Math.toRadians(steeringAngle);
          radius = at.MarsRover.SteeringAngle.CalculateTurnRadius(wheelBase, steeringAngle);
          circumference = (float) (2*radius*Math.PI);
-         degTraveled = 360 / circumference * distance;
+         degTraveled = (360 / circumference) * distance;
          radiansCircle = (float) Math.toRadians(degTraveled);
-         distanceTraveled = (float) (circumference * Math.sin(radiansCircle/2));
-         xTraveled = (float) (radius - Math.cos(radiansCircle));
-         yTraveled = (float) (Math.sin(radiansCircle));
+         // distanceTraveled = (float) (circumference * Math.sin(radiansCircle/2));
+         xTraveled = (float) (radius-Math.cos(radiansCircle)*2);
+         yTraveled = (float) (Math.sin(radiansCircle))*2;
         FloatPoint point = new FloatPoint(xTraveled, yTraveled);
     }
     public float CalculateNewDirection(){

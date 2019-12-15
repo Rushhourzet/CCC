@@ -34,7 +34,7 @@ public class SteeringAngle{
     }
 
     public static float CalculateTurnRadius(float wheelBase, float steeringAngle){
-        return (float) Math.round((wheelBase/Math.sin(Math.toRadians(steeringAngle))*100))/100;
+        return (float) (wheelBase/Math.sin(Math.toRadians(steeringAngle)));
     }
 
 }
