@@ -18,8 +18,8 @@ public class Navigation {
          degTraveled = (360 / circumference) * distance;
          radiansCircle = (float) Math.toRadians(degTraveled);
          // distanceTraveled = (float) (circumference * Math.sin(radiansCircle/2));
-         xTraveled = (float) (radius-Math.cos(radiansCircle)*2);
-         yTraveled = (float) (Math.sin(radiansCircle))*2;
+         xTraveled = (float) (radius-Math.cos(radiansCircle)*2);    //remove *2 and fix calculation
+         yTraveled = (float) (Math.sin(radiansCircle))*2;           //same as above
         FloatPoint point = new FloatPoint(xTraveled, yTraveled);
     }
     public float CalculateNewDirection(){
