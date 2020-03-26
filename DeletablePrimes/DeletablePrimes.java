@@ -33,16 +33,19 @@ public class DeletablePrimes{
     }
 
     private BigInteger[] Solve(BigInteger[] nums){
-        ArrayList<Object> tmp = new ArrayList<>();
+        ArrayList<BigInteger> tmp = new ArrayList<>();
         for (int i = 0; i < nums.length; i++) {
             String tmpString = nums[i].toString();
             StringBuilder builder = new StringBuilder(tmpString);
             for (int j = 0; j < tmpString.length(); j++) {
-                BigInteger tmpBI = new BigInteger(builder.deleteCharAt(j).toString());
-                if(CheckIfPrime(tmpBI)) tmp.add(tmpBI); 
-                if(tmpBI.intValue()<10) this.counter++;
+                StringBuilder buildertmp = new StringBuilder(builder);
+                BigInteger tmpBI = new BigInteger(buildertmp.deleteCharAt(j).toString());
+                if(CheckIfPrime(tmpBI)){
+                    tmp.add(tmpBI); 
+                    if(tmpBI.intValue()<10 && tmpBI.intValue() > 1 ) this.counter++;
+                } 
             }
         }
-        return (BigInteger[])tmp.toArray();
+        return tmp.toArray(new BigInteger[tmp.size()]);
     }
 }
