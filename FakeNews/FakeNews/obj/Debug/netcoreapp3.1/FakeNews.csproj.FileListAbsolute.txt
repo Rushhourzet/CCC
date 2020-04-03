@@ -1,0 +1,13 @@
+Z:\ccc\school_2020\FakeNews\FakeNews\bin\Debug\netcoreapp3.1\FakeNews.exe
+Z:\ccc\school_2020\FakeNews\FakeNews\bin\Debug\netcoreapp3.1\FakeNews.deps.json
+Z:\ccc\school_2020\FakeNews\FakeNews\bin\Debug\netcoreapp3.1\FakeNews.runtimeconfig.json
+Z:\ccc\school_2020\FakeNews\FakeNews\bin\Debug\netcoreapp3.1\FakeNews.runtimeconfig.dev.json
+Z:\ccc\school_2020\FakeNews\FakeNews\bin\Debug\netcoreapp3.1\FakeNews.dll
+Z:\ccc\school_2020\FakeNews\FakeNews\bin\Debug\netcoreapp3.1\FakeNews.pdb
+Z:\ccc\school_2020\FakeNews\FakeNews\obj\Debug\netcoreapp3.1\FakeNews.csprojAssemblyReference.cache
+Z:\ccc\school_2020\FakeNews\FakeNews\obj\Debug\netcoreapp3.1\FakeNews.csproj.CoreCompileInputs.cache
+Z:\ccc\school_2020\FakeNews\FakeNews\obj\Debug\netcoreapp3.1\FakeNews.AssemblyInfoInputs.cache
+Z:\ccc\school_2020\FakeNews\FakeNews\obj\Debug\netcoreapp3.1\FakeNews.AssemblyInfo.cs
+Z:\ccc\school_2020\FakeNews\FakeNews\obj\Debug\netcoreapp3.1\FakeNews.dll
+Z:\ccc\school_2020\FakeNews\FakeNews\obj\Debug\netcoreapp3.1\FakeNews.pdb
+Z:\ccc\school_2020\FakeNews\FakeNews\obj\Debug\netcoreapp3.1\FakeNews.genruntimeconfig.cache
